@@ -22,6 +22,7 @@ if (mysqli_num_rows($result) > 0) {
       <td>" . $row["jumlah_hari"] . "</td>
       <td>" . $row["total_harga"] . "</td>
       <td>" . "<a href='delete_penyewaan.php?id=" . $row["id"] . "'>Hapus</a>
+      <a href='edit_form.php?id=" . $row['id'] . "'>Edit</a>
     </tr>";
   }
   echo "</table>";
