@@ -1,0 +1,76 @@
+h1 {
+	margin-bottom: 10px;
+}
+h2 {
+	font-size: 20px;
+	
+}
+
+body {
+	color: #000000;
+	background-color: #ffffff;
+	font-family: 'Nanum Myeongjo;'
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+.text-center {
+	text-align: left;
+	padding-right: 10px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+    justify-content: space-around;
+}
+
+.col-md-4 {
+	flex: 0 0 33.333333%;
+	max-width: 33.333333%;
+	padding: 0 15px;
+}
+
+.car {
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.2);
+	margin-bottom: 30px;
+	padding: 50px;
+	text-align: center;
+}
+
+.car img {
+    height: 170px;
+    object-fit: contain;
+}
+
+.car p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    }
+
+.sewa-btn {
+	display: inline-block;
+	padding: 15px 50px;
+	border-radius: 2px;
+	background-color: #27ae60;
+	color: #ffffff;
+	font-size: 16px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	cursor: auto;
+	border: none;
+	transition: all 0.3s ease;
+	}
+	
+.sewa-btn:hover {
+background-color: #000000;
+}
+	
